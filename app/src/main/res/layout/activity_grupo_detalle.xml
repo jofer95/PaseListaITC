@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical"
+    tools:context="com.example.lyfs.pasedelistaitc.Actividades.GrupoDetalleActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Materia:"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/idNombreMateria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Materia"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grupo:"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/idGrupo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grupo"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clave Materia"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/idClaveMateria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clave Materia"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Horario:"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/idLunes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunes"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/idMiercoles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunes"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/idMartes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunes"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/idJueves"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunes"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/idViernes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunes"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total de asistencias:"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/idTotalAsistencias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="muchas"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total de faltas:"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/idTotalFaltas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="muchas"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

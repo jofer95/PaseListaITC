@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tomaAsistencia"
+            android:icon="?android:attr/actionModePasteDrawable"
+            android:title="Tomar asistencia" />
+        <item
+            android:id="@+id/nav_asistenciasAlumno"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="Asistencias por alumno" />
+        <item
+            android:id="@+id/nav_asistenciasGrupo"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="Asistencias por grupo" />
+        <item
+            android:id="@+id/nav_buscarAlumno"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="Buscar alumno" />
+    </group>
+
+    <item android:title="Opciones">
+        <menu>
+            <item
+                android:id="@+id/nav_acercaDe"
+                android:icon="@android:drawable/ic_input_get"
+                android:title="Acerca de" />
+            <item
+                android:id="@+id/nav_cerrarSesion"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Cerrar Sesion" />
+        </menu>
+    </item>
+
+</menu>
